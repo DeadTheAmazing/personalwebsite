@@ -1,0 +1,26 @@
+{
+  "name": "web_personal",
+  "version": "1.0.0",
+  "description": "the website that I run and host",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeadTheAmazing/personalwebsite.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "DeadTheAmazing",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/DeadTheAmazing/personalwebsite/issues"
+  },
+  "homepage": "https://github.com/DeadTheAmazing/personalwebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
+}
