@@ -96,9 +96,9 @@ function replaceUrls(text) {
 		return text
 	}
 }
-
-Typer.speed=3;
-Typer.file="../txt/deadtheamazing.html";
+var typerspeeddefault = 6;
+Typer.speed=typerspeeddefault;
+Typer.file=typerfile;
 Typer.init();
  
 var timer = setInterval("t();", 30);

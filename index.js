@@ -7,7 +7,8 @@ const
   , io = new Server(server)
   , path = require('path')
   , PORT = process.env.PORT || 80
-  , pathz = [["/","/view/index.html"]];
+  , pathz = [["/","/view/index.html"],["/articles","/view/article.html"]]
+  , articles = [["test","../txt/"]];
 
 
 

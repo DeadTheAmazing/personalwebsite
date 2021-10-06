@@ -1,5 +1,8 @@
 body {
-	background-color: #000
+	background: black;
+	;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 #console {
@@ -18,19 +21,20 @@ a {
 	text-decoration: none;
 }
 
-#a {
-	color: #0f0;
+.a {
+	color: #0e0;
 }
 
-#c {
+.c {
 	color: #0bc;
 }
 
-#b {
-	color: #ff0096;
+.b {
+	color: #ff00ff;
 }
 
-#k {
+.k {
+
     	animation: change 1s;
 }
 
@@ -39,7 +43,22 @@ a {
 }
 
 @keyframes change {
-    	0%  { color:  #0f0; }
-		50% { color: black; }
-    	99% { color:  #0f0; }
+		0% { color: #0f0; }
+    	50% { color:  #000; }
+		99% { color: #0f0; }
+}
+
+.details {
+	display:none;
+	margin-left: 50px;
+}
+#upperdetail {
+	margin-left:10px;
+}
+.pushleft {
+	margin-left:50px;
+}
+.articlediv {
+	border: 3px double #0f0;
+	padding: 15px;
 }

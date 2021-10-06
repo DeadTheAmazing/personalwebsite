@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>articles@34.86.47.50</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="../css/main.css" />
+          <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript">
+          </script>
+    </head>
+    <body>
+        <script>
+            var url = window.location.href
+            url = url.split("#");
+            if(url[1]){
+                var typerfile="./txt/articles/"+url[1]+".htm";
+            }else if(!url[1]){
+                var typerfile="./txt/articles/all.htm"
+                
+            }
+        </script>
+        <script type="text/javascript" src="../js/main.js">
+        </script> 
+        <div id="console">
+            
+        </div> 
+    </body>
+    <script src="/socket.io/socket.io.js"></script>
+    
+<script>
+    var socket = io();
+</script>
+</html>
